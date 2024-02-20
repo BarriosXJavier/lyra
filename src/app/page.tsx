@@ -1,11 +1,12 @@
-import Navbar from "@/components/nav";
-import CalendarSection from "@/components/cal";
-
+import Navbar from "@/components/nav"
+import ClockSection from "@/components/sidesection/clock"
+import CalendarSection from "@/components/sidesection/cal"
 export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="bg-white w-72 p-4 m-2">
+      <section>
+        <ClockSection />
         <CalendarSection />
       </section>
     </>

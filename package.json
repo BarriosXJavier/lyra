@@ -16,6 +16,7 @@
     "next": "14.0.4",
     "react": "^18",
     "react-calendar": "^4.8.0",
+    "react-clock": "^4.6.0",
     "react-dom": "^18",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
